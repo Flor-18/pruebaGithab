@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ nav div {
+    /*border: 3px solid rgb(30, 206, 44);*/
+ width: 70%;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+ justify-content: space-between;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+nav div ul li{
+    list-style: none;
+    padding-right: 15px;
+}
+nav div ul{
+    display: flex;
+
+}
+nav div ul li  a {
+    color: rgb(0, 174, 255);
+}
+
+header{
+    border:3px solid transparent;
+    background-image: url(../img/logo3.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.contenedor {
+    /*border: 3px solid purple;*/
+    width: 70%;
+    margin-left:auto ;
+    margin-right: auto;
+    
+}
+h1 {
+    /*border:3px solid fuchsia;*/
+    color: #FF6818;
+    font-size: 60px;
+
+}
+div p {
+    font-size: 12px;
+    font-style: italic;    
+}
+
+.lorem15{
+    color: gray;
+    font-weight: bold;
+    /*border: 3px solid yellow;*/
+    /* width: 300px; */
+
+    
+}
+.email{
+   /* border: 3px solid orange;*/
+    display: flex;
+    
+}
+input{
+    border: none;
+    font-size: 18px;
+    outline: 0;
+    padding: 9px 6px;
+
+}
+button{
+    border:none;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #FF6818;
+    color:white;
+    padding: 12px 25px;
+    font-weight: bold;
+}
+.lorem3{
+    color: blue;
+    /* border: 3px solid #1AE60A; */
+    /* margin-top: 40px;
+    margin-bottom: 40px; */
+}
+
+.contenedor2{
+    /*border:3px solid #1AE60A;*/
+    display: flex;
+    width: 70%;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+article{ 
+    color: white;
+    padding: 10px 25px 10px 25px;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.cont1{
+    
+    background-color: #FF6818;
+}
+
+.cont2{
+
+    background-color: #fa2803;  
+}
+
+.cont3{
+    
+    background-color: #080808;
+}
+
+.cont4{
+    
+    background-color: #3f3c3a;
+}
+h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.sub{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.loremsub{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.icono{
+    font-size: 40px;
+}
+
+@media only screen and (max-width:1200px){
+    article{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:750px){
+    article{
+        width: 100%;
+    }
+    header div h1{
+        text-align: center;
+    }
+    
+    header div div{
+      justify-content: center;
+    }
+    header div p{
+        text-align: center;
+}
+@media only screen and (max-width:300px){
+    header{
+      background-image: url(../css/portada\ \(1\).jpg);
+}
+header div h1{
+    font-size: 60px;
+    color: #080808;
+    line-height: 70px;
+}
+button{
+    height: 37px;
+    width: 90px;
+}
+input{
+    height: 22px;
+    width: 150px;
+}
+article{
+    flex-wrap: wrap;
+    height: 300px;
+    width: 180px;
+
+}
+}
+}

@@ -1,0 +1,30 @@
+img{ 
+ height: 150px;
+ padding: 15px;
+ }
+
+ body{
+    background-color: rgb(189, 47, 135);
+}
+.contenedor{
+width: 90%;
+   border: 3px solid cornsilk;
+   border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    padding-bottom: 400px;  
+    justify-content: center;
+}
+.input-box1{
+    margin-top: 30px;
+}
+.input-box2{
+    margin-top: 20px;
+}
+.input-box3{
+    margin-top: 20px;
+}
+

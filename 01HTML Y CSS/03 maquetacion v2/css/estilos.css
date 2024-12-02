@@ -1,0 +1,54 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+
+header{
+    border: 3px solid rgb(255, 0, 191);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    border: 3px solid rgba(28, 235, 228, 0.89);
+    display: flex;
+    flex-wrap:  wrap;
+}
+
+section article{
+    border: 3px solid rgb(20, 236, 67);
+    height: 150px;
+    width: 341px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: deeppink;
+    background-color: rgb(255, 251, 0);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+aside{
+    border: 3px solid red;
+    height: 150px;
+    width: 141px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    border: 3px solid rgb(188, 201, 11);
+    height: 150px;
+}
+
+footer{
+    border: 3px solid rgb(226, 21, 141);
+    height: 50px;
+    width: 141px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
